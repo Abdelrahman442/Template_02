@@ -1,0 +1,81 @@
+.title
+{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 37px;
+	text-decoration: underline;
+	color: #b35900;
+	text-transform: uppercase;
+}
+
+.our-services
+{
+	padding: 50px 10px;
+	border-bottom: 1px dashed #999;
+	overflow: hidden;
+}
+
+.our-services-desc
+{
+	text-align: center;
+	font-size: 17px;
+	display: block;
+	line-height: 1.6;
+	margin-bottom: 80px;
+	padding: 0 120px
+}
+
+.our-services-item
+{
+	width: 25%;
+	text-align: center;
+	float: left;
+	padding: 0 20px;
+	margin-bottom: 60px;
+}
+
+.our-services-item i
+{
+	font-size: 50px;
+	color: #b35900;
+}
+
+.our-services-item h2
+{
+	margin: 20px 0;
+	font-weight: normal;
+}
+
+.our-services-item p
+{
+	font-size: 17px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.lists
+{
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+.lists div
+{
+	width: 33%;
+	float: left;
+	padding-left: 10px;
+}
+
+.lists div h2
+{
+	font-weight: normal;
+	color: #b35900;
+	margin-bottom: 20px;
+}
+
+.lists div ul li
+{
+	margin-bottom: 5px;
+	display: block;
+}

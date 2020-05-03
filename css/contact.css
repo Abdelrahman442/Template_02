@@ -1,0 +1,93 @@
+.title
+{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 37px;
+	text-decoration: underline;
+	color: #b35900;
+	text-transform: uppercase;
+}
+
+.contact
+{
+	padding: 70px;
+	overflow: hidden;
+}
+
+.contact-desc
+{
+	text-align: center;
+	font-size: 17px;
+	display: block;
+	margin: auto;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	padding: 0 5px
+}
+
+.info, .form
+{
+	width: 50%;
+	height: 400px;
+	padding: 50px;
+	float: left;
+}
+
+.info-title
+{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.info span
+{
+	margin-bottom: 20px;
+	line-height: 1.5;
+	display: inline-block;
+}
+
+.info p
+{
+	display: block;
+}
+
+.info p span
+{
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+/* form */
+
+.form label
+{
+	font-size: 17px;
+	margin-right: 15px;
+}
+.form input
+{
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.form .lab
+{
+	margin-right: 35px;
+}
+
+.form .message
+{
+	float: left;
+	line-height: 50px;
+	height:50px;
+}
+.form textarea
+{
+	width: 200px;
+	height: 70px;
+}
+.btn
+{
+	margin-top: 30px;
+	margin-left: 25%;
+}

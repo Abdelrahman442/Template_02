@@ -1,0 +1,185 @@
+/* genral style */ 
+
+*, *:after, *:before
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: arial;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style: none;
+}
+
+.container
+{
+	width: 85%;
+	margin: auto;
+}
+
+.btn
+{
+	color: #b35900;
+	padding: 6px 25px;
+	background: none;
+	text-transform: capitalize;
+	border: 1px solid #b35900;
+}
+
+.btn:hover
+{
+	color: #fff;
+	background-color: #b35900;
+	cursor: pointer;
+}
+
+.title
+{
+
+}
+
+
+/* header style */
+
+.header
+{
+	text-align: center;
+	padding: 20px 0;
+	background-color: #000;
+}
+
+.header .nav
+{
+	margin-top: 20px;
+}
+
+.header .nav-link
+{
+	display: inline-block;
+}
+
+.header .nav-link a
+{
+	color: #fff;
+	display: block;
+	padding: 4px 15px;
+	font-size: 19px;
+	text-transform: uppercase;
+
+}
+
+.header .nav-link a:hover, .header .nav-link a.active
+{
+	color: #dfC977;
+}
+
+/* footer */
+
+.footer
+{
+	background-color: #000;
+	padding: 20px 35px;
+}
+.footer .links, .footer .media-icons
+{
+	float: left;
+	color: #fff;
+	width:25%;
+}
+.links-title
+{
+	text-transform: capitalize;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.footer ul
+{
+	margin-bottom: 15px;
+}
+.footer li a
+{
+	padding: 10px;
+	text-transform: capitalize;
+	display: block;
+	color: #fff;
+	width: 50%;
+}
+.footer li a:hover
+{
+	background-color: #6663;
+}
+.footer p
+{
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.footer .media-icons a i
+{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px 8px;
+	margin-right: 8px;
+}
+.footer .media-icons a i:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+
+.up i
+{
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	text-align: center;
+	line-height: 50px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+.up i:hover
+{
+	opacity: 0.8;
+}
+.up a { color: #fff }
+.clear
+{
+	clear: both;
+}
+
+/* gallary */
+
+.gallary
+{
+
+	padding: 70px 0;
+	border-bottom: 1px dashed #999;
+}
+.gallary-title
+{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 37px;
+	text-decoration: underline;
+	color: #b35900;
+	text-transform: uppercase;
+}
+.gallary-img img
+{
+	width: 23%;
+	margin: 0.8%;
+}
